@@ -30,6 +30,32 @@
 45959142000119	
 ```
 
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
+**Imaginamos aqui que você ja passou 2 manuais anteriores**
+
+</p>
+**Manual Instalação CHATWOOT**
+
+🧰 Instruções:
+
+✅  Linux VM
+✅  Docker
+
+https://github.com/EngajamentoFlow/chatwoot
+
+**Manual Instalação UNOAPI**
+
+🧰 Instruções:
+
+✅  Linux VM
+✅  Docker
+
+https://github.com/EngajamentoFlow/unoapi
+
+----------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------
 
