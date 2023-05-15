@@ -55,7 +55,15 @@ https://github.com/EngajamentoFlow/unoapi
 
 **Adicione URL abaixo no .env do Chatwoot**
 
+</p>
+Acesse seu terminal 
+</p>
+cd /home/chatwoot/chatwoot
+</p>
+nano .env
+</p>
 WHATSAPP_CLOUD_BASE_URL=http://localhost:9876
+</p>
 
 ----------------------------------------------------------------------------
 
