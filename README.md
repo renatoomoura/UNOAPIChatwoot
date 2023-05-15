@@ -41,17 +41,11 @@
 
 🧰 Instruções:
 
-✅  Linux VM
-✅  Docker
-
 https://github.com/EngajamentoFlow/chatwoot
 
 **Manual Instalação UNOAPI**
 
 🧰 Instruções:
-
-✅  Linux VM
-✅  Docker
 
 https://github.com/EngajamentoFlow/unoapi
 
@@ -67,16 +61,31 @@ WHATSAPP_CLOUD_BASE_URL=http://localhost:9876
 
 **Recompilando seu Chatwoot**
 
+</p>
 sudo -i -u chatwoot
+</p>
 cd chatwoot
-git checkout develop && git pull
+</p>
+git checkout master && git pull
+</p>
+rvm reinstall ruby-3.1.3
+</p>
+rvm use 3.1.3 --default
+</p>
 bundle
+</p>
 yarn
+</p>
 rake assets:precompile RAILS_ENV=production
+</p>
 RAILS_ENV=production bundle exec rake db:migrate
+</p>
 exit
+</p>
 systemctl daemon-reload
+</p>
 systemctl restart chatwoot.target
+</p>
 
 ----------------------------------------------------------------------------
 
